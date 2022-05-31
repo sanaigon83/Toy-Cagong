@@ -1,6 +1,9 @@
 rootProject.name = "cagong"
 
 include("cagong-admin-api")
+include("cagong-common")
+include("cagong-user-api")
+include("cagong-domain")
 
 pluginManagement {
     resolutionStrategy {
